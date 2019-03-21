@@ -1,0 +1,5 @@
+1.0.1:
+    - First version of plugin
+    - create_pipelines_table.php
+    - create_stages_table.php
+    - seed_all_tables.php

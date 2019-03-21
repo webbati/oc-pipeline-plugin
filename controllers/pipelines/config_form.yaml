@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Pipeline
+
+# Model Form Field configuration
+form: $/prismify/pipeline/models/pipeline/fields.yaml
+
+# Model Class name
+modelClass: Prismify\Pipeline\Models\Pipeline
+
+# Default redirect location
+defaultRedirect: prismify/pipeline/pipelines
+
+# Create page
+create:
+    title: Create Pipeline
+    redirect: prismify/pipeline/pipelines/update/:id
+    redirectClose: prismify/pipeline/pipelines
+
+# Update page
+update:
+    title: Edit Pipeline
+    redirect: prismify/pipeline/pipelines
+    redirectClose: prismify/pipeline/pipelines
+
+# Preview page
+preview:
+    title: Preview Pipeline

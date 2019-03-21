@@ -1,0 +1,16 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+stages:
+    label: Stage
+    view:
+        list: $/prismify/pipeline/models/stage/columns.yaml
+        toolbarButtons: create|delete
+        recordsPerPage: 10
+        showSorting: false
+        defaultSort:
+            column: name
+            direction: asc
+    manage:
+        form: $/prismify/pipeline/models/stage/fields.yaml

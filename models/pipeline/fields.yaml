@@ -1,0 +1,16 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    is_enabled:
+        type: switch
+        span: full
+    name:
+        placeholder: New pipeline name
+        span: left
+    stages:
+        label: Stages
+        type: partial
+        path: field_stages
+        span: full
